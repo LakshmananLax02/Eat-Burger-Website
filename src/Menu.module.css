@@ -1,0 +1,103 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+.galleryimg{
+      background-image: url(assets/Galleryimg.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: brightness(70%);
+      min-height: 500px;
+     
+}
+
+.gallerycontent{
+text-align: center;
+font-weight: bolder;
+color: white;
+font-size: 90px;
+ font-family: 'Bebas Neue', sans-serif;
+position: relative;
+top: 200px;
+
+
+}
+
+.menubtncontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menubutton{
+    position: relative;
+    top: 6px;
+    font-size: 30px;
+    background-color: green;
+    color: white;
+    height: 100px;
+    margin: 10px 15px 15px 10px;
+    width: 400px;
+    display: block;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.menubutton:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    box-shadow: 10px 15px 20px black;
+}
+
+
+
+
+.menutopic{
+
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 60px;
+    color: orange;
+    background-color: red;
+
+}
+
+
+.card{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image:url(assets/menucardbackgroundimage.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+
+.Hfooterimg{
+    min-height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(70%);
+    background-image:url(assets/Hfooterimg.jpg) 
+}
+
+.footercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    color: white;
+    
+}

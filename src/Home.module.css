@@ -1,0 +1,270 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+.carouselcontent1{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 60px;
+  position: relative;
+  bottom: 50px;
+}
+.carouselbutton{
+   
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    height: 60px;
+}
+
+.carouselbutton:hover{
+    color: white;
+    background-color: black;
+    transform: scale(1.09);
+    transition: 0.5s;
+}
+
+.carouselcontent2{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 80px;
+  position: relative;
+  bottom: 100px;
+  color: yellow;
+}
+
+
+.carouselcontent3{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 80px;
+  position: relative;
+  bottom: 100px;
+  color: yellow;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: red;
+  padding: 20px;
+  font-weight: bolder;
+  font-size: 30px;
+  height: 40px;
+}
+
+
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+.card{
+    box-shadow: 5px 5px 20px black;
+    margin: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+.cardimage{
+    height: 370px;
+    width: 300px;
+    border-radius: 4px;
+    filter: brightness(60%);
+}
+
+.cardimage:hover{
+    transform: scale(1.09);
+    transition: 0.5s;
+}
+
+
+.cardcontent{
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    position: absolute;
+    top: 35%;    
+ 
+  
+
+}
+
+.cardcontent:hover{
+    color: yellow;
+}
+
+
+.cardcontent2{
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    color: white;
+     position: absolute;
+    top: 35%;   
+}
+
+
+
+.cardcontent2:hover{
+    color: yellow;
+}
+
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.galleryimg{
+    height: 460px;
+    width: 330px;
+    margin: 15px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.gallerybtn{
+    display:flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: red;
+}
+
+.gallerybtn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    transform: scale(1.06);
+}
+
+
+
+
+.about {
+ position: relative;
+ overflow: hidden;
+  margin: 15px;
+}
+
+
+
+.aboutimage{
+    height: 550px;
+    width: 400px;
+    float: right;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+.aboutbutton{
+    position: relative;
+    left: 5px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    height: 60px;
+}
+
+.aboutbutton:hover{
+    color: white;
+    background-color: black;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+
+.deliverycontainer{
+
+    position: relative;
+}
+.deliveryimg{
+    height: 600px;
+    margin: 30px;
+    filter: brightness(70%);
+    background-image:url(assets/Hdeliveryimg.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 19px;
+    
+
+}
+
+.deviverycontent{
+    display: block;
+    margin: 0 10px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    bottom: 100px;
+  
+
+}
+
+.deliverypartnerimgcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+
+}
+
+.deliverypartnerimg{
+    height: 150px;
+    width: 200px;
+    position: relative;
+  bottom: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+
+.Hfooterimg{
+    min-height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(70%);
+    background-image:url(assets/Hfooterimg.jpg) ;
+    
+  
+ 
+}
+
+
+.footercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    color: white;
+    
+}

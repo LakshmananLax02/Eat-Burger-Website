@@ -1,0 +1,86 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.galleryimg{
+      background-image: url(assets/Galleryimg.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: brightness(70%);
+      min-height: 500px;
+     
+}
+
+.gallerycontent{
+text-align: center;
+font-weight: bolder;
+color: white;
+font-size: 90px;
+ font-family: 'Bebas Neue', sans-serif;
+position: relative;
+top: 200px;
+}
+
+
+
+.about{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 15px;
+}
+
+.aboutimage1{
+    height: 550px;
+    width: 400px;
+    float: right;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.aboutimage2{
+    height: 550px;
+    width: 400px;
+    float: left;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+
+.aboutimage3{
+    height: 550px;
+    width: 400px;
+    float: right;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+
+.Hfooterimg{
+    min-height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(70%);
+    background-image:url(assets/Hfooterimg.jpg) ;
+}
+
+
+.footercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    color: white;
+    
+}
+   

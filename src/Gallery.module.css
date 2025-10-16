@@ -1,0 +1,83 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+.galleryimg{
+      background-image: url(assets/Galleryimg.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: brightness(70%);
+      min-height: 500px;
+     
+}
+
+.gallerycontent{
+text-align: center;
+font-weight: bolder;
+color: white;
+font-size: 90px;
+ font-family: 'Bebas Neue', sans-serif;
+position: relative;
+top: 200px;
+}
+
+.menutopic{
+
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: orange;
+    background-color: red;
+
+}
+
+.gallerycontainer{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.galleryimage{
+
+    height: 400px;
+    width: 270px;
+    margin: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+
+.Hfooterimg{
+    min-height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(70%);
+    background-image:url(assets/Hfooterimg.jpg) ;
+    
+  
+ 
+}
+
+
+.footercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    color: white;
+    
+}
+   

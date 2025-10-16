@@ -1,0 +1,42 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container{
+    height: 80px;
+    margin: 15px ;
+  
+   
+}
+
+.navlogo{
+    height: 100px;
+    width:150px;
+    position: relative;
+    right: 30px;   
+
+}
+
+.navmaincontent{
+   
+    color: black;
+    font-size: 18px;
+    
+}
+
+.navcontent{
+    font-weight: bolder;
+    margin-left: 43px;
+
+    
+ 
+}
+
+.navcontent:hover{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}

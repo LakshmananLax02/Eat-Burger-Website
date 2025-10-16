@@ -1,0 +1,133 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  
+}
+
+
+.orderContainer {
+  max-width: 60%;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+   color: black;
+  font-family: 'Arial', sans-serif;
+}
+
+.formbackground{
+  background:rgba(255, 136, 0, 0.838);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(90%);
+ 
+}
+
+.orderContainer h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top:2px;
+}
+
+.orderForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section input[type="text"],
+.section input[type="email"],
+.section input[type="tel"],
+.section select,
+.section textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.section textarea {
+  resize: none;
+}
+
+.section label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  
+}
+
+.section div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 8px;
+}
+
+.section input[type="checkbox"] {
+  margin-right: 8px;
+  transform: scale(1.2);
+}
+
+.submitBtn {
+  background: linear-gradient(135deg, #ff5e62, #ff9966);
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submitBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 650px) {
+  .orderContainer {
+    padding: 20px;
+    margin: 30px auto;
+  }
+}
+
+
+
+.Hfooterimg{
+    min-height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(70%);
+    background-image:url(assets/Hfooterimg.jpg) ;
+    
+  
+ 
+}
+
+
+.footercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    color: white;
+    
+}
+   
