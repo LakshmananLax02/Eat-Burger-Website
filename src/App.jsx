@@ -4,7 +4,7 @@ import Gallery from "./Gallery"
 import About from "./About"
 import Contact from "./Contact"
 import OrderNow from "./OrderNow"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbarr from './Navbarr'
 
 function App() {
