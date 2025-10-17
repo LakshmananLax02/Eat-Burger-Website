@@ -1,4 +1,4 @@
-import MenuCard from "./MenuCard";
+import MenuCard from "./Menucard";
 import styles from './Menu.module.css'
 import m1 from './assets/MB1.jpg'
 import m2 from './assets/MB2.jpg'
