@@ -1,4 +1,4 @@
-import styles from './MenuCard.module.css'
+import styles from './Menucard.module.css'
 import {Link} from "react-router-dom"
 function MenuCard({ card }) {
   return (
