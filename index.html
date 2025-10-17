@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eat Burger 🍔</title>
 
-    <!-- ✅ Favicon fixed -->
+    <!-- ✅ Favicon -->
     <link rel="icon" type="image/svg+xml" href="/Eat-Burger-Website/vite.svg" />
 
     <!-- ✅ Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- ✅ Bootstrap -->
     <link
@@ -23,9 +26,8 @@
   <body>
     <div id="root"></div>
 
-    <!-- ✅ These will be replaced automatically by Vite during build -->
- <script type="module" src="/Eat-Burger-Website/assets/index.js"></script>
-
-
+    <!-- ✅ DO NOT manually point to /assets/ -->
+    <!-- Vite will inject correct build file automatically -->
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
