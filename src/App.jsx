@@ -9,7 +9,7 @@ import Navbarr from './Navbarr'
 
 function App() {
   return (
-    <Router basename="/Eat-Burger-Website">
+    <Router>
 
       <Navbarr/>
       <Routes>
